@@ -1,50 +1,56 @@
 # 20240720
-# 本日上課課程 
-- 課程單元: MyFirstSecurity資安入門的第一堂課
-- 請依照底下順序完成
 
-# [[開場白與課程說明]](./0.md) 👉(先點選看說明)👉[[YOUTUBE教學錄影]](https://youtu.be/e_7K2TneejU)
-- 記得要簽到簿(不要遲到) [點選去簽到](https://forms.gle/MwjTDomakPUsqHtu8)
-- 記得要下課後還要填寫 回饋問卷 https://forms.gle/gAP8ZtjautZZbZxBA
-
-## CTF 入門:透過參與CTF搶旗大賽學習資安實務
-  - CTF搶旗大賽 [[線上教材]](./1/1.md) [[YOUTUBE教學錄影]](https://youtu.be/Bcxyx3lJG8w)
-    - 點選本次上課使用的[[CTF 平台]](https://120.114.62.204) 註冊與登入CTF解題
-  - 起手式---文件隱寫術之word隱身術{隱寫術101::STEG1} [[YOUTUBE教學錄影]](https://youtu.be/aeXnuZi3XOk)
-    - 另一種解法 請參閱 [如何在Word中快速顯示或隱藏所有隱藏的文本？](https://zh-tw.extendoffice.com/documents/word/906-word-show-hide-hidden-text.html) 
-  - 【自行完成】{隱寫術101::STEG2_Secret in PDF}
-
-## 網站安全初體驗 == > 請完成【Web101】的題目
-  - Web101::Web-1:source code(隱藏在註解裡的FLAG)[[YOUTUBE教學錄影]](https://youtu.be/2GWc9hsw794)
-  - Web101::Web-2:Easy_Robots.txt(Robot.txt的奧秘1)[[YOUTUBE教學錄影]](https://youtu.be/Ifi9VHGBhsY)
-  - 【自行完成】Web101::web-3:Robots.txt(Robot.txt的奧秘2)[無提供解答][完成編碼與解碼問題時再回來解此題]
-  - Web101::web-4:Curl-1:URL redirection的破招 [[線上解答]](./1/web-4解答.md) [[YOUTUBE教學錄影]](https://youtu.be/Lwyp3tv66KQ)
-  - Web101::web-5:HTTP method (HTTP method的奧義)[[線上解答]](./1/web-5解答.md)
-
-## 編碼與解碼 == >   請完成【編碼101】的題目
-  - Ascii 編碼與解碼 [線上教材](./1/3_編碼與解碼.md) {編碼101:Ascii}[[YOUTUBE教學錄影]](https://youtu.be/fu2jgb4SN7U)
-  - 【自行完成】{編碼101:Base64}
-  - 【自行完成】{編碼101:Base32}
-  - 【自行完成】{編碼101:Morse code}
-  - 【自行完成】{編碼101:第一堂base64編碼}
-  - 【自行完成】{編碼101:第一堂Unicode}
-  - BASE64原理說明 [[中文Wiki的說明]](https://zh.wikipedia.org/wiki/Base64) [[YOUYUBE教學錄影]](https://youtu.be/lFUb0cmHo1c)
-  - 【自行完成】Base32原理說明
-
-## 古典密碼學之破密分析 == > 請完成【Crypto101】的題目
-  - 凱薩密碼 與【暴力破解法】{Crypto101::CRY1}  [[YOUYUBE教學錄影]](https://youtu.be/GY34Ewh6EoQ)
-  - 【自行完成】{Crypto101::CRY2_凱撒密碼part2}
-  - 【自行完成】{Crypto101::CRY3_ROT 13} 
-  - 密碼棒加解密 Scytale [英文WIKI說明](https://en.wikipedia.org/wiki/Scytale) [中文WIKI的說明](https://zh.m.wikipedia.org/zh-tw/%E5%AF%86%E7%A2%BC%E6%A3%92)
-    - 題目:Crypto101::CRY4 SCYTCRYPTO 密碼棒破密}  [[YOUYUBE教學錄影]](https://youtu.be/8XbZSa-1GkE)
-  - Vigenère cipher  
-    - 基本觀念 [線上教材](./1/Vigen%C3%A8recipher.md) [[YOUYUBE教學錄影]](https://youtu.be/m21YiTlprKY)
-    - Crypto101::CRY5題目解答[[YOUYUBE教學錄影]](https://youtu.be/P2fCkFC2eRA)
-  - 【自行完成】【頻率分析法】的破密技術{Crypto101::CRY6}
-  -  Crypto101::CRY7_Rail Fence Cipher [[YOUYUBE教學錄影]](https://youtu.be/DLIf0kpByYs)
-  - 【自行完成】{Crypto101::CRY8_ROT47}  ~上網學學ROT47的運作原理 歐
-
-## 你可以自己決定何時下課! 
-## 記得~ 下課後 ~ 要填寫 回饋問卷 
+## 7/20(六)~7/21(日)
+### 東臺灣高中職生資安盛會
 
 
+### GenAI 生成式AI 
+- [ChatGPT](https://chatgpt.com/)
+- Google[GEMINI](https://gemini.google.com/app?hl=zh-TW)
+- Copilot 
+
+### [prompt提示詞1](prompt1.md)
+```
+CIA TRIAD:Confidentiality, Integrity, and Availability
+你是專家,請用十頁簡報說明CIA TRIAD
+```
+### 文生圖[prompt提示詞2](prompt2.md)
+```
+請為李白將進酒畫四幅水墨畫
+```
+### 提示工程指南
+- [提示工程指南](https://www.promptingguide.ai/zh)
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
+- 提示工程技術
+  - Zero-shot Prompting(零樣本提示學)
+  - Few-shot Prompting(少樣本提示學)
+  - Chain-of-Thought Prompting(鏈式思考（CoT）提示詞學)
+  - Self-Consistency(自我一致性)
+  - Generate Knowledge Prompting(生成知識提示)
+  - Prompt Chaining(提示詞鏈結)
+  - Tree of Thoughts(思維樹)
+  - Retrieval Augmented Generation(檢索增強生成)
+  - Automatic Reasoning and Tool-use(自動推理並使用工具)
+  - Automatic Prompt Engineer(自動提示工程師)
+  - Active-Prompt(主動提示詞)
+  - Directional Stimulus Prompting(方向性刺激提示詞)
+  - Program-Aided Language Models(程式輔助語言模型)
+  - ReAct
+  - Reflexion()
+  - Multimodal CoT(多模態思維鏈提示方法)
+  - Graph Prompting(圖形提示詞)
+### 作業
+```
+使用CHATGPT生成一張照片  或上傳自己的照片
+
+== > 產生修飾過的 照片
+
+== > 產生3D(立體圖)的照片
+
+== > 產生會動的公仔
+
+== > 產生會發聲音的公仔
+
+附上文字稿
+== > 產生會虛擬主播 或 專業老師
+```
